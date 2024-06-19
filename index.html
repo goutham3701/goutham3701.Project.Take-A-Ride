@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take A Ride</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <header class="header" data-header>
+        <div class="container">
+    
+          <div class="overlay" data-overlay></div>
+    
+          <a href="#" class="logo">
+            <img src="" alt="">
+          </a>
+    
+          <nav class="navbar" data-navbar>
+            <ul class="navbar-list">
+    
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
+    
+              <li>
+                <a href="#featured-car" class="navbar-link" data-nav-link>Explore cars</a>
+              </li>
+    
+              <li>
+                <a href="#footer-list" class="navbar-link" data-nav-link>About us</a>
+              </li>
+    
+             
+    
+            </ul>
+          </nav>
+    
+          <div class="header-actions">
+    
+            <div class="header-contact">
+              <a href="tel:7510229763" class="contact-link">751 022 9763</a>
+    
+              <span class="contact-time">Mon - Sat: 10:00 Am - 9:00 Pm</span>
+            </div>
+    
+            <a href="#featured-car" class="btn" aria-labelledby="aria-label-txt">
+              <ion-icon name="car-outline"></ion-icon>
+    
+              <span id="aria-label-txt">Explore cars</span>
+            </a>
+    
+            <a href="./login.html" class="btn user-btn" aria-label="Profile">
+              <ion-icon name="person-outline"></ion-icon>
+            </a>
+    
+            <button class="nav-toggle-btn" data-nav-toggle-btn aria-label="Toggle Menu">
+              <span class="one"></span>
+              <span class="two"></span>
+              <span class="three"></span>
+            </button>
+    
+          </div>
+    
+        </div>
+      </header>
+    
+    
+    
+    
+    
+      <main>
+        <article>
+    
+
+    
+          <section class="section hero" id="home">
+            <div class="container">
+    
+              <div class="hero-content">
+                <h2 class="h1 hero-title">Take A Ride <br>The Home Of Rental Cars</h2>
+    
+                <p class="hero-text">
+                  Open In Kochi, Bangalore, Trivandrum !
+                </p>
+              </div>
+    
+              <div class="hero-banner">
+                <img src="images/hero-banner.png" alt="banner">
+              </div>
+    
+              <form action="" class="hero-form">
+    
+                <div class="input-wrapper">
+                  <label for="input-1" class="input-label">Model Or Brand</label>
+    
+                  <input type="text" name="car-model" id="input-1" class="input-field"
+                    placeholder="What car are you looking?">
+                </div>
+    
+                <div class="input-wrapper">
+                  <label for="input-2" class="input-label">Payment</label>
+    
+                  <input type="text" name="monthly-pay" id="input-2" class="input-field" placeholder=" Amount in Rs">
+                </div>
+    
+                <div class="input-wrapper">
+                  <label for="input-3" class="input-label">Model Year</label>
+    
+                  <input type="text" name="year" id="input-3" class="input-field" placeholder="Year">
+                </div>
+    
+                <button type="submit" class="btn">Search</button>
+    
+              </form>
+    
+            </div>
+          </section>
+    
+    
+    
+    
+    
+
+    
+          <section class="section featured-car" id="featured-car">
+            <div class="container">
+    
+              <div class="title-wrapper">
+                <h2 class="h2 section-title">Featured Cars</h2>
+    
+                <a href="#" class="featured-car-link">
+                  <span>View more</span>
+    
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </a>
+              </div>
+    
+              <ul class="featured-car-list">
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/nexon (1).jpg" alt="TATA Nexon 2024" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">TATA Nexon</a>
+                        </h3>
+    
+                        <data class="year" value="2024">2024</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">4 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">10km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 1250</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/harrier.jpg" alt="" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">TATA Harrier</a>
+                        </h3>
+    
+                        <data class="year" value="2024">2024</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">5 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Diesel</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">9km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Manual/Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong> Rs 2500</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/punchev.jpg" alt="" loading="lazy" width="440"
+                        height="300" class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">TATA Punch EV</a>
+                        </h3>
+    
+                        <data class="year" value="2024">2024</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">4 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Electric</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">250Km/Charge</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong> Rs 1000</strong>/ Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/elevate.jpg" alt="" loading="lazy" width="440"
+                        height="300" class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Honda Elevate</a>
+                        </h3>
+    
+                        <data class="year" value="2023">2023</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">4 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">8km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Manual/Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 1100</strong>/ Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/swift.jpg" alt="" loading="lazy" width="440"
+                        height="300" class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Maruti Swift</a>
+                        </h3>
+    
+                        <data class="year" value="2023">2023</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">4 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol/Diesel</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">20Km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic/Manual</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 900</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Our Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/xuv700.jpg" alt="" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Mahindra XUV 700</a>
+                        </h3>
+    
+                        <data class="year" value="2022">2022</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">7 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">9Km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 1350</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/taigun.jpg" alt="" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Volkswagen Taigun</a>
+                        </h3>
+    
+                        <data class="year" value="2022">202</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">4 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol/Diesel</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">8Km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 850</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/urbancruiser.jpg" alt="" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Toyota Hyryder</a>
+                        </h3>
+    
+                        <data class="year" value="2023">2023</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">5 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Hybrid</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">28Km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 1700</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+
+                <li>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src="images/virtus.jpg" alt="" loading="lazy" width="440" height="300"
+                        class="w-100">
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">Volkswagen virtus</a>
+                        </h3>
+    
+                        <data class="year" value="2022">2022</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people"></ion-icon>
+    
+                          <span class="card-item-text">5 People</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash"></ion-icon>
+    
+                          <span class="card-item-text">Petrol</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer"></ion-icon>
+    
+                          <span class="card-item-text">12Km/Litre</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip"></ion-icon>
+    
+                          <span class="card-item-text">Automatic/Manual</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                        <p class="card-price">
+                          <strong>Rs 1000</strong>/Day
+                        </p>
+    
+                        <button class="btn fav-btn" aria-label="Add to favorite list">
+                          <ion-icon name="heart"></ion-icon>
+                        </button>
+    
+                        <button class="btn">Rent Out Now</button>
+    
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+            </div>
+          </section>
+    
+    
+   
+ 
+
+      <footer class="footer" id="footer-list">
+        <div class="container">
+    
+          <div class="footer-top">
+    
+            <div class="footer-brand">
+              <a href="#" class="logo">
+                <img src="" alt="">
+              </a>
+    
+              <p class="footer-text">
+                Lorem ipsum dolor sit aget consectetur adipisicing elit. Iste, voluptas vero alias natus nisi voluptates quibusdam at eveniet facere distinctio iure beatae consequuntur <br>numquam. Voluptates dolorum voluptatem quae excepturi 
+              </p>
+            </div>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Company</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">About us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Pricing plans</a>
+              </li>
+    
+
+    
+              <li>
+                <a href="#" class="footer-link">Contacts</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Support</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Help center</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Ask a question</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Privacy policy</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Terms & conditions</a>
+              </li>
+    
+            </ul>
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">In Kochi</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Bangalore</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Trivandrum</a>
+              </li>
+    
+
+    
+            </ul>
+    
+          </div>
+    
+          <div class="footer-bottom">
+    
+            <ul class="social-list">
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-twitter"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="logo-skype"></ion-icon>
+                </a>
+              </li>
+    
+              <li>
+                <a href="#" class="social-link">
+                  <ion-icon name="mail-outline"></ion-icon>
+                </a>
+              </li>
+    
+            </ul>
+    
+            <p class="copyright">
+              &copy; 2024 <a href="#"></a>. All Rights Reserved
+            </p>
+    
+          </div>
+    
+        </div>
+      </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
